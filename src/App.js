@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Header from './layout/header/Header';
+import Side from './layout/side/Side';
 
 function App() {
+
+    let [ toggle, setToggle ] = React.useState( true );
+
+    function toggleSide() {
+        setToggle(
+            toggle = !toggle
+        )
+    }
+
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <Header toggle={toggle} onToggle={toggleSide} />
+            <div className="content-wrap container-fluid">
+                <div className="row w-100">
+                    <Side toggle={toggle} />
+                    <div className="col content">
+                        content
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
