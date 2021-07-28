@@ -6,7 +6,7 @@ import './Header.scss';
 export default function Header (props) {
     return (
         <div className="header-wrapp">
-            <nav className="navbar fixed-top bg-dark">
+            <nav className="navbar fixed-top">
                 <div className="container-fluid">
                     <div className="row w-100">
                         <div className="col-2 toogle-button-wrap">

@@ -1,15 +1,29 @@
 .left-side-wrapp {
     flex: 0 0 auto;
     width: 0;
-    transition: all .5s ease-in;
+    transition: all .6s ease-in;
     padding: 0;
     visibility: hidden;
-    background-color: #394e63;
+    background-color: #263238;
     height: calc(100vh - 60px);
+    transform: translateX(-360px);
 
     &.show {
-      width: 30%;
-      padding: 10px;
+      width: 350px;
       visibility: visible;
+      transform: translateX(0px);
+    }
+    .image-with-name {
+      padding: 20px 0;
+      background-color: #37474f;
+      color: #ffd699;
+
+      .boy {
+        border-radius: 50%;
+        width: 170px;
+        height: 170px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
     }
   }
