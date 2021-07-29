@@ -1,29 +1,60 @@
 .left-side-wrapp {
     flex: 0 0 auto;
-    width: 0;
     transition: all .6s ease-in;
     padding: 0;
-    visibility: hidden;
     background-color: #263238;
     height: calc(100vh - 60px);
-    transform: translateX(-360px);
+    transform: translateX(-295px);
+    position: fixed;
+    width: 300px;
+    overflow-y: auto;
+    border-right: 5px solid #5790de;
 
     &.show {
-      width: 350px;
-      visibility: visible;
       transform: translateX(0px);
     }
     .image-with-name {
       padding: 20px 0;
-      background-color: #37474f;
-      color: #ffd699;
+      background-color: rgba(0, 0, 0, .5);
+      color: #5790de;
 
       .boy {
         border-radius: 50%;
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         object-fit: cover;
         margin-bottom: 20px;
+        transition: all .6s ease;
+        transform: rotateY(0);
+      }
+
+      &:hover {
+        .boy {
+          transform: rotateY(185deg);
+        }
+      }
+    }
+    .personal-wrap {
+      padding: 20px 25px;
+    }
+    .title {
+      color: #eda81b;
+      text-decoration: underline;
+      text-decoration-color: #b60003;
+      margin-bottom: 20px;
+    }
+    .item {
+      .item-name {
+        color: #000;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+      .item-description {
+        color: #5790de;
+        font-size: 16px;
+        line-height: 18px;
       }
     }
   }

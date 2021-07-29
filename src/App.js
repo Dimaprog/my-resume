@@ -5,7 +5,7 @@ import Side from './layout/side/Side';
 
 function App() {
 
-    let [ toggle, setToggle ] = React.useState( true );
+    let [ toggle, setToggle ] = React.useState( false );
 
     function toggleSide() {
         setToggle(
