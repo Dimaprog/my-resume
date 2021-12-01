@@ -16,10 +16,10 @@ function App() {
     return (
         <div className="App">
             <Header toggle={toggle} onToggle={toggleSide} />
-            <div className="content-wrap container-fluid">
-                <div className="row w-100">
-                    <Side toggle={toggle} />
-                    <div className="col content">
+            <Side toggle={toggle} />
+            <div className="content-wrap container">
+                <div className="row d-flex justify-content-center w-100">
+                    <div className="col col-sm-12 col-md-10 col-lg-10 content">
                         content
                     </div>
                 </div>

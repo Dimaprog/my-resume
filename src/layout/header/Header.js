@@ -7,7 +7,7 @@ export default function Header (props) {
     return (
         <div className="header-wrapp">
             <nav className="navbar fixed-top">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row w-100">
                         <div className="col-2 toogle-button-wrap">
                             <button type="button" onClick={ ()=> props.onToggle() } className="btn btn-info">
