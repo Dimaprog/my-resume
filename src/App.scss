@@ -2,6 +2,58 @@
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 
 .content-wrap {
-  box-shadow: 0 0 35px -15px;
+  padding: 50px 25px 25px;
+  box-shadow: 0 0 35px -15px #3e323e;
+  min-height: calc(100vh - 60px);
+
+  .title {
+    font-weight: 800;
+    letter-spacing: .4px;
+    color: #000000;
+    text-align: center;
+    display: block;
+    border-bottom: 3px solid #3e323e;
+    padding-bottom: 20px;
+  }
+
+  .experience-wrap {
+    .item {
+      padding: 20px 25px;
+
+      .name {
+        color: #000;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        position: relative;
+        margin-bottom: 10px;
+        &:after {
+          content: 'Company name';
+          display: block;
+          color: #3e323e;
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+      .position {
+        position: relative;
+        margin-bottom: 10px;
+        &:before {
+          content: 'Position: ';
+          color: #3e323e;
+          font-weight: 700;
+        }
+      }
+      .date-employment {
+        position: relative;
+        margin-bottom: 10px;
+        &:before {
+          content: 'Dates of employment: ';
+          color: #3e323e;
+          font-weight: 700;
+        }
+      }
+    }
+  }
 
 }
