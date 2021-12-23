@@ -1,6 +1,13 @@
  {
-    "name": "Moisiuk Dmytro",
-    "position": "PHP Developer",
-    "email": "dimaprog1991@gmail.com",
-    "avatar": "superboy.jpg"
-  }
+   "personal_info": {
+     "name": "Moisiuk Dmytro",
+     "position": "PHP Developer",
+     "email": "dimaprog1991@gmail.com",
+     "avatar": "superboy.jpg"
+   },
+   "education": {
+     "dates_of_studying": "2011-2014",
+     "name": "Yuriy Fedkovich Chernivtsi National University, Chernivtsi city, Ukraine",
+     "degree": "Master of Computer science"
+   }
+ }
