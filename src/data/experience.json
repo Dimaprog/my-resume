@@ -6,7 +6,7 @@
     "projects": [
       {
         "name": "Project1",
-        "role": "php-developer and front-end-developer. Creating web-site use Wordpress, creating plugins for this website. Developing front-end part use angular",
+        "role": "php-developer and front-end-developer. Creating web-site use Wordpress, creating plugins for this website. Developing front-end part using angular",
         "technologies": "PHP7, Worpress, Sass, Angular, Composer, yarn, npm"
       }
     ]
@@ -18,7 +18,7 @@
     "projects": [
       {
         "name": "dtkt",
-        "role": "php-developer. Rewrite the project from PHP-kohana to Laravel and create new module in project",
+        "role": "php-developer. Rewriting the project from PHP-kohana to Laravel and creating new modules in project",
         "technologies": "PHP7, Laravel, Mysql, Composer, SystemJs"
       }
     ]
@@ -50,7 +50,7 @@
       },
       {
         "name": "Project5",
-        "role": "php-developer. Overview: creation and updating of both old and new functions and classes, work on the design, updating the admin of the site",
+        "role": "php-developer. Overview: creation and updating of both old and new functions and classes, work on the design, updating the admin part of the site",
         "technologies": "PHP, Symfony3, Boostrap"
       }
     ]
