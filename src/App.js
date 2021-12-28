@@ -19,7 +19,7 @@ function App() {
             <Header toggle={toggle} onToggle={toggleSide} />
             <Side toggle={toggle} />
             <div className="container">
-                <div className="row d-flex justify-content-center w-100">
+                <div className="row d-flex justify-content-center w-100 mx-0">
                     <div className="col col-sm-12 col-md-10 col-lg-8 content-wrap">
                         <h3 className='title'>Work Experience</h3>
                         <div className="experience-wrap">
