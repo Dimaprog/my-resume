@@ -1,125 +1,123 @@
-@import '~bootstrap/scss/bootstrap.scss';
+// @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-icons/font/bootstrap-icons.css';
 
 .content-wrap {
-  padding: 50px 25px 25px;
-  box-shadow: 0 0 35px -15px #3e323e;
-  min-height: calc(100vh - 60px);
+	padding: 50px 25px 25px;
+	box-shadow: 0 0 35px -15px #3e323e;
+	min-height: calc(100vh - 60px);
 
-  .main-title {
-    font-weight: 800;
-    letter-spacing: .4px;
-    color: #000000;
-    text-align: center;
-    display: block;
-    border-bottom: 3px solid #3e323e;
-    padding-bottom: 20px;
-  }
+	.main-title {
+		font-weight: 800;
+		letter-spacing: 0.4px;
+		color: #000000;
+		text-align: center;
+		display: block;
+		border-bottom: 3px solid #3e323e;
+		padding-bottom: 20px;
+	}
 
-  .experience-wrap {
-    .item {
-      padding: 20px 25px;
-      &:not(:last-child) {
-        border-bottom: 2px solid #3e323e;
-      }
+	.experience-wrap {
+		.item {
+			padding: 20px 25px;
+			&:not(:last-child) {
+				border-bottom: 2px solid #3e323e;
+			}
 
-      .name {
-        color: #000;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 24px;
-        position: relative;
-        margin-bottom: 10px;
+			.name {
+				color: #000;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 24px;
+				position: relative;
+				margin-bottom: 10px;
 
-        &:after {
-          content: 'Company name';
-          display: block;
-          color: #3e323e;
-          font-size: 14px;
-          font-weight: 500;
-        }
-      }
+				&:after {
+					content: 'Company name';
+					display: block;
+					color: #3e323e;
+					font-size: 14px;
+					font-weight: 500;
+				}
+			}
 
-      .position {
-        position: relative;
-        margin-bottom: 10px;
+			.position {
+				position: relative;
+				margin-bottom: 10px;
 
-        &:before {
-          content: 'Position: ';
-          color: #3e323e;
-          font-weight: 700;
-        }
-      }
+				&:before {
+					content: 'Position: ';
+					color: #3e323e;
+					font-weight: 700;
+				}
+			}
 
-      .date-employment {
-        position: relative;
-        margin-bottom: 10px;
+			.date-employment {
+				position: relative;
+				margin-bottom: 10px;
 
-        &:before {
-          content: 'Dates of employment: ';
-          color: #3e323e;
-          font-weight: 700;
-        }
-      }
+				&:before {
+					content: 'Dates of employment: ';
+					color: #3e323e;
+					font-weight: 700;
+				}
+			}
 
-      .title {
-        color: #3e323e;
-        font-weight: 700;
-        position: relative;
-        margin-bottom: 10px;
-      }
+			.title {
+				color: #3e323e;
+				font-weight: 700;
+				position: relative;
+				margin-bottom: 10px;
+			}
 
-      .projects-wrap {
-        padding: 0 15px 10px;
+			.projects-wrap {
+				padding: 0 15px 10px;
 
-        .project {
-          margin-top: 10px;
-          &:not(:last-child) {
-            border-bottom: 1px solid #3e323e;
-          }
+				.project {
+					margin-top: 10px;
+					&:not(:last-child) {
+						border-bottom: 1px solid #3e323e;
+					}
 
+					.name {
+						font-size: unset;
+						line-height: unset;
+						position: relative;
+						font-weight: 500;
 
-          .name {
-            font-size: unset;
-            line-height: unset;
-            position: relative;
-            font-weight: 500;
+						&:before {
+							content: 'Project name: ';
+							color: #3e323e;
+							font-weight: 700;
+						}
+						&:after {
+							content: unset;
+							display: unset;
+						}
+					}
 
-            &:before {
-              content: 'Project name: ';
-              color: #3e323e;
-              font-weight: 700;
-            }
-            &:after {
-              content: unset;
-              display: unset;
-            }
-          }
+					.role {
+						position: relative;
+						margin-bottom: 10px;
 
-          .role {
-            position: relative;
-            margin-bottom: 10px;
+						&:before {
+							content: 'Role: ';
+							color: #3e323e;
+							font-weight: 700;
+						}
+					}
 
-            &:before {
-              content: 'Role: ';
-              color: #3e323e;
-              font-weight: 700;
-            }
-          }
+					.technologies {
+						position: relative;
+						margin-bottom: 10px;
 
-          .technologies {
-            position: relative;
-            margin-bottom: 10px;
-
-            &:before {
-              content: 'Technologies: ';
-              color: #3e323e;
-              font-weight: 700;
-            }
-          }
-        }
-      }
-    }
-  }
-
+						&:before {
+							content: 'Technologies: ';
+							color: #3e323e;
+							font-weight: 700;
+						}
+					}
+				}
+			}
+		}
+	}
 }
